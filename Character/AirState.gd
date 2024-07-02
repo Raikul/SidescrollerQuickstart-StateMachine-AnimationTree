@@ -14,7 +14,7 @@ func state_process(delta):
 		next_state = landing_state
 		
 func state_input(event : InputEvent):
-	if(event.is_action_pressed("jump") && !has_double_jumped):
+	if(event.is_action_pressed("jump") and !has_double_jumped):
 		double_jump()
 
 func on_exit():

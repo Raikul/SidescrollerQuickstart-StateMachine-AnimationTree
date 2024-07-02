@@ -1,2 +1,9 @@
 res://Levels/test_level.tscn
 res://Character/player.tscn
+res://Character/AirState.gd
+res://Character/GroundState.gd
+res://Character/Attack.gd
+res://Character/player.gd
+res://Character/Sword.gd
+res://Character/enemies/Snail/snail.tscn
+res://Character/enemies/Snail/Damageable.gd
