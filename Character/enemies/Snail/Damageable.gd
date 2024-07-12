@@ -1,7 +1,15 @@
 extends Node
 class_name Damageable
 
-@export var health : float = 20
+@export var health : float = 30:
+	get:
+		return health
+	set(value):
+		SignalBus.emit_signal("on_health_changed", get_parent(), value - health )
+		print("health: " + str(health))
+		print("value: " + str(value))
+		health = value
+
 
 func hit(damage : int):
 	health -= damage

@@ -1,9 +1,10 @@
+res://Character/enemies/Snail/Damageable.gd
+res://UI/health_changed_manager.gd
+res://signal_bus.gd
+res://UI/health_changed_label.tscn
+res://UI/health_changed_manager.tscn
 res://Levels/test_level.tscn
 res://Character/player.tscn
-res://Character/AirState.gd
-res://Character/GroundState.gd
-res://Character/Attack.gd
-res://Character/player.gd
-res://Character/Sword.gd
 res://Character/enemies/Snail/snail.tscn
-res://Character/enemies/Snail/Damageable.gd
+res://UI/health_changed_label.gd
+res://UI/Timer.gd
